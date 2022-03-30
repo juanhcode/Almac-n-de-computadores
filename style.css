@@ -98,3 +98,29 @@
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.galeria{
+    width: 60%;
+    height:80%;
+    margin: auto;
+    border-radius:2%;
+    border:2px solid white;
+}
+
+table,th,td{
+    padding: 5px;
+}
+
+#tabla-pc{
+    margin: 3% auto auto auto;
+}
+
+.imagen-pc{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+}
+h2,p{
+    text-align: center;
+    color: white;
+}
