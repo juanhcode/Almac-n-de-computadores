@@ -1,0 +1,166 @@
+*{
+    margin:0px;
+    padding:0px;
+    border:0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header{
+    background-color:#f1f1f0;
+    width: 100%;
+    height:120px;
+    display: flex;
+    align-items:stretch;  
+}
+
+.imagen{
+    flex-grow: 2;
+    margin: 10px;
+    padding: 20px;
+}
+
+.Home{
+    flex-grow: 8;
+    margin: 10px;
+    padding: 20px;
+}
+.header > div {
+    margin: 10px;
+    padding: 20px;
+}
+
+.img-new{
+    margin:-15px;
+}
+
+.main{
+    background-color:#3a4e7a;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:700px;
+}
+
+/*FOOTER*/
+.footer{
+    background-color:black;
+    width:100%;
+    height:120px;
+    display: flex;
+    align-items:stretch;
+}
+.seccion1{
+    text-align:center;
+    flex-grow: 3;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+.seccion2{
+    text-align:center;
+    flex-grow: 4;
+    margin: 10px;
+    padding: 20px;
+    color: white;
+
+}
+.seccion3{
+    text-align:center;
+    flex-grow: 3;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+/**/
+
+.title{
+    font-size:30px;
+    margin-top: -63px;
+    margin-left: 95px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.link-home{
+    text-decoration: none;
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+.calcular{
+    text-align: center;
+    margin: auto;
+    width:800px;
+    height:100px;
+    border: 2px solid #f1f1f0;
+}
+
+
+/*Boton calcular*/
+#calcularCantidad{
+    width:110px;
+    height:30px;
+    border-radius: 5px;
+}
+
+#calcularCantidad:hover{
+    background-color:#f1f1f0;
+}
+
+/*Campo de texto*/
+#cantidadComputadores{
+    height:30px;
+}
+
+/*Label del input*/
+.label-cantidad{
+    font-size:22px;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.seccion{
+    border: 1px solid #f1f1f0;
+    width:800px;
+    height:100px;
+}
+
+.cotizacion{
+    margin:auto;
+    width:800px;
+    height:300px;
+    text-align: center;
+    border: 2px solid #f1f1f0;
+}
+
+.nav{
+    margin: auto;
+    margin-top:10px;
+    text-align: center;
+    border: 2px solid #3a4e7a;
+    height:30px;
+    width:100px;
+    border-radius:10px;
+}
+
+.value-label{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn-almacen{
+    height:30px;
+}
+
+input:disabled{
+    background-color:white;
+    color: black;
+}
